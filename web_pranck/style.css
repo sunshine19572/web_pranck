@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6%;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#yes-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#no-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    position: relative;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
